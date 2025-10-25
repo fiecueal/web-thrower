@@ -1,0 +1,18 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"category": "equipment",
+	"key": {
+		"A": { "item": "minecraft:iron_nugget" },
+		"B": { "item": "minecraft:redstone" },
+		"C": { "item": "minecraft:tripwire_hook" }
+	},
+	"pattern": [
+		"CA ",
+		"ABA",
+		" AB"
+	],
+	"result": {
+		"count": 1,
+		"id": "web_thrower:web_thrower"
+	}
+}
