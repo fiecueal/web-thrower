@@ -62,6 +62,7 @@ public class WebThrowerItem extends ProjectileWeaponItem {
 						1F,
 						level.getRandom().nextFloat() / 2F);
 
+				player.getCooldowns().addCooldown(this, 5);
 				return InteractionResultHolder.consume(itemstack);
 			}
 		}
