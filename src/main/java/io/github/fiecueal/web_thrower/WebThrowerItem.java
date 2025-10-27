@@ -25,7 +25,7 @@ public class WebThrowerItem extends ProjectileWeaponItem {
 
 	@Override
 	public Predicate<ItemStack> getAllSupportedProjectiles() {
-		return ARROW_ONLY;
+		return p -> p.is(Items.STRING);
 	}
 
 	@Override
