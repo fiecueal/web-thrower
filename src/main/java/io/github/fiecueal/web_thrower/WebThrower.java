@@ -40,7 +40,7 @@ public class WebThrower {
 	public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(MODID);
 	// add entry to registry
 	public static final DeferredItem<Item> WEB_THROWER = ITEMS.register("web_thrower",
-			() -> new Item(new Item.Properties()));
+			() -> new WebThrowerItem(new Item.Properties().durability(333)));
 
 	public WebThrower(IEventBus modEventBus, ModContainer modContainer) {
 		// Register the commonSetup method for modloading
